@@ -1,0 +1,36 @@
+body {
+  margin: 2rem;
+}
+
+img {
+  width: 450px;
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+.App {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.anime-left {
+  transform: translateX(-40px);
+  opacity: 0;
+  animation: anime-left 0.3s forwards;
+}
+
+@keyframes anime-left {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
